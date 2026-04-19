@@ -99,4 +99,4 @@ I'm an **AI Engineer and Data Scientist** with 10+ years of experience building 
 
 ---
 
-<p align="center">📍 Geneva, Switzerland &nbsp;|&nbsp; 🌐 <a href="https://mohammadaghdam.com">mohammadaghdam.com</a> &nbsp;|&nbsp; Swiss C Permit (Settled / Permanent)</p>
+<p align="center">📍 Geneva, Switzerland &nbsp;|&nbsp; 🌐 <a href="https://mohammadaghdam.com">mohammadaghdam.com</a> </p>

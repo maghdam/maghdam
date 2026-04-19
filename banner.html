@@ -4,94 +4,87 @@
 <meta charset="utf-8">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
+  html, body {
     width: 1584px;
     height: 396px;
-    background: linear-gradient(135deg, #0a0f1e 0%, #061428 40%, #0d2137 70%, #091c30 100%);
-    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #080d1a 0%, #061224 45%, #0c1e33 75%, #08192c 100%);
+    font-family: 'Segoe UI', system-ui, Arial, sans-serif;
     overflow: hidden;
-    position: relative;
   }
   .banner {
     width: 1584px;
     height: 396px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 80px;
     position: relative;
   }
-  svg.bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.07; pointer-events: none; }
-  .left { display: flex; flex-direction: column; gap: 14px; }
-  .name { font-size: 54px; font-weight: 700; color: #fff; letter-spacing: -1px; }
-  .title { font-size: 20px; color: #38bdf8; font-weight: 500; letter-spacing: 0.5px; }
+  svg.bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+  /* Left spacer - kept clear for profile photo overlap */
+  .spacer { width: 420px; flex-shrink: 0; }
+  /* Subtle vertical divider */
+  .divider {
+    width: 1px;
+    height: 240px;
+    background: linear-gradient(to bottom, transparent, rgba(56,189,248,0.5), transparent);
+    flex-shrink: 0;
+    margin-right: 56px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex: 1;
+    padding-right: 80px;
+  }
+  .name { font-size: 52px; font-weight: 800; color: #ffffff; letter-spacing: -1px; line-height: 1.1; }
+  .title { font-size: 19px; color: #38bdf8; font-weight: 500; letter-spacing: 0.3px; }
   .tags { display: flex; gap: 10px; flex-wrap: wrap; }
   .tag {
     background: rgba(56,189,248,0.1);
     border: 1px solid rgba(56,189,248,0.35);
     color: #7dd3fc;
-    padding: 5px 14px;
-    border-radius: 20px;
+    padding: 5px 15px;
+    border-radius: 999px;
     font-size: 13px;
+    font-weight: 500;
   }
-  .sub { color: #475569; font-size: 13px; margin-top: 4px; }
-  .divider {
-    width: 1px;
-    height: 220px;
-    background: linear-gradient(to bottom, transparent, #38bdf8, transparent);
-    margin: 0 60px;
-    flex-shrink: 0;
-  }
-  .right { display: flex; flex-direction: column; align-items: flex-end; gap: 18px; flex-shrink: 0; }
-  .badge {
-    background: linear-gradient(135deg, #0c4a6e, #0ea5e9);
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: 700;
-    font-size: 12px;
-    text-align: center;
-    line-height: 1.4;
-    border: 2px solid rgba(56,189,248,0.4);
-  }
-  .links { display: flex; flex-direction: column; gap: 8px; align-items: flex-end; }
-  .link { color: #94a3b8; font-size: 14px; }
+  .sub { color: #3d5a73; font-size: 12.5px; margin-top: 2px; }
 </style>
 </head>
 <body>
 <svg class="bg" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="1350" cy="-50" r="250" fill="none" stroke="#38bdf8" stroke-width="1"/>
-  <circle cx="1350" cy="-50" r="380" fill="none" stroke="#38bdf8" stroke-width="0.5"/>
-  <circle cx="1350" cy="-50" r="500" fill="none" stroke="#38bdf8" stroke-width="0.3"/>
-  <circle cx="80" cy="450" r="180" fill="none" stroke="#38bdf8" stroke-width="0.5"/>
-  <line x1="0" y1="396" x2="1584" y2="396" stroke="#38bdf8" stroke-width="0.3" opacity="0.5"/>
+  <defs>
+    <radialGradient id="g1" cx="15%" cy="50%" r="35%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="85%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g1)"/>
+  <rect width="100%" height="100%" fill="url(#g2)"/>
+  <circle cx="210" cy="198" r="180" fill="none" stroke="#38bdf8" stroke-width="0.6" opacity="0.1"/>
+  <circle cx="210" cy="198" r="280" fill="none" stroke="#38bdf8" stroke-width="0.4" opacity="0.06"/>
+  <circle cx="210" cy="198" r="380" fill="none" stroke="#38bdf8" stroke-width="0.2" opacity="0.03"/>
+  <line x1="0" y1="395" x2="1584" y2="395" stroke="#38bdf8" stroke-width="1" opacity="0.12"/>
 </svg>
 <div class="banner">
-  <div class="left">
+  <div class="spacer"></div>
+  <div class="divider"></div>
+  <div class="content">
     <div class="name">Mohammad Aghdam</div>
-    <div class="title">AI Engineer &amp; Data Scientist &nbsp;&#x7C;&nbsp; PhD &nbsp;&#x7C;&nbsp; Geneva, Switzerland</div>
+    <div class="title">AI Engineer &amp; Data Scientist &nbsp;&#124;&nbsp; PhD &nbsp;&#124;&nbsp; Geneva, Switzerland</div>
     <div class="tags">
       <span class="tag">LLMs &amp; GenAI</span>
       <span class="tag">MLOps &amp; Cloud</span>
       <span class="tag">Deep RL</span>
       <span class="tag">Multi-Agent Systems</span>
-      <span class="tag">Azure &#x2022; AWS &#x2022; GCP</span>
-      <span class="tag">Python &#x2022; PyTorch &#x2022; Databricks</span>
+      <span class="tag">Azure &#8226; AWS &#8226; GCP</span>
+      <span class="tag">Python &#8226; PyTorch &#8226; Databricks</span>
     </div>
-    <div class="sub">mohammadaghdam.com &nbsp;&#x2022;&nbsp; linkedin.com/in/mohammad-aghdam &nbsp;&#x2022;&nbsp; Swiss C Permit</div>
-  </div>
-  <div class="divider"></div>
-  <div class="right">
-    <div class="badge">PhD<br>Pol Sci<br>Geneva</div>
-    <div class="links">
-      <div class="link">&#127760; mohammadaghdam.com</div>
-      <div class="link">&#128008; github.com/maghdam</div>
-      <div class="link">&#128279; linkedin.com/in/mohammad-aghdam</div>
-    </div>
+    <div class="sub">mohammadaghdam.com &nbsp;&#8226;&nbsp; linkedin.com/in/mohammad-aghdam &nbsp;&#8226;&nbsp; github.com/maghdam &nbsp;&#8226;&nbsp; Swiss C Permit</div>
   </div>
 </div>
 </body>

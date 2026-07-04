@@ -67,6 +67,7 @@ I'm an **AI Engineer and Data Scientist** with 10+ years of experience building 
 | Project | Description | Stars |
 |---|---|---|
 | [GenAI MultiAgent Trading System](https://github.com/maghdam/GenAI-MultiAgent-TradingSystem) | Local-first GenAI trading workstation with live cTrader data, paper execution, deterministic risk controls, and local LLM support via Ollama | ⭐ 8 |
+| [Python & SQL Interview Prep Dashboard](https://github.com/maghdam/python-sql-interview-prep-dashboard) | Dark-mode interview training dashboard with Python exercises, SQL practice, quizzes, flashcards, progress tracking, and browser-based Python/SQLite runners. [Live demo](https://maghdam.github.io/python-sql-interview-prep-dashboard/) | ⭐ new |
 | [chatgpt-trading-strategy-assistant](https://github.com/maghdam/chatgpt-trading-strategy-assistant) | Fully automated FastAPI + Docker pipeline over cTrader Open API — natural-language chart analysis, Notion journaling, and order placement | ⭐ 37 |
 | [Deep RL MT5 Bot](https://github.com/maghdam/Deep-Reinforcement-Learning-MT5-Bot) | SB3 agents (PPO, A2C, DQN) bridged with MetaTrader 5 for backtesting and live trading | ⭐ 2 |
 | [AlphaFlow MT5 ML/DL Trading Lab](https://github.com/maghdam/AlphaFlow-MT5-ML-DL-Trading-Lab) | End-to-end ML & DL trading framework for MT5 — data loading, feature engineering, training, backtesting | ⭐ 7 |

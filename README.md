@@ -17,7 +17,6 @@ I'm an **AI Engineer and Data Scientist** with 10+ years of experience building 
 - 🤖 Working across **Multi-Agent AI, LLMs, RAG, Deep RL, and GenAI** applied to real-world problems
 - 🧠 Contributor to **Outlier / Scale AI** frontier-model evaluation projects (incl. tasks for *Humanity's Last Exam*)
 - 📈 Building end-to-end algorithmic trading systems using **ML/DL, DRL, and multi-agent architectures**
-- 🌍 Based in **Geneva, Switzerland** — open to new AI Engineer / Data Scientist roles (remote, hybrid, or relocation)
 - 💬 Speak: English, German, French, Arabic, Persian, Kurdish
 
 ---

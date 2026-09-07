@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Mohammad Aghdam 👋</h1>
-<h3 align="center">AI Engineer & Data Scientist · International Relations Researcher · Geneva, Switzerland</h3>
+<h3 align="center">AI Engineer · Data Engineer · Data Scientist · Geneva, Switzerland</h3>
 
 <p align="center">
   <a href="https://mohammadaghdam.com" target="_blank"><img src="https://img.shields.io/badge/Website-mohammadaghdam.com-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
@@ -11,13 +11,17 @@
 
 ## About Me
 
-I'm an **AI Engineer and Data Scientist** with 10+ years of experience building production-grade ML systems, LLM pipelines, and data engineering solutions. I hold a **PhD in Political Science** (Quantitative Conflict Research) from the University of Geneva, giving me a rare interdisciplinary edge — pairing deep technical expertise with domain knowledge in international relations, public health, and policy.
+I'm an **AI Engineer, Data Engineer, and Data Scientist** focused on building end-to-end data and GenAI systems on modern cloud platforms. My work spans **Databricks data engineering, RAG and multi-agent LLM applications, ML/MLOps, evaluation, and production delivery**.
 
-- 🔭 Most recently delivered a malaria outbreak forecasting & MLOps system at **Terre des Hommes** (Azure Databricks, Spark, dbt, Terraform — informing weekly decisions for ~24M residents in Burkina Faso)
-- 🤖 Working across **Multi-Agent AI, LLMs, RAG, Deep RL, and GenAI** applied to real-world problems
-- 🧠 Contributor to **Outlier / Scale AI** frontier-model evaluation projects (incl. tasks for *Humanity's Last Exam*)
-- 📈 Building end-to-end algorithmic trading systems using **ML/DL, DRL, and multi-agent architectures**
-- 💬 Speak: English, German, French, Arabic, Persian, Kurdish
+My primary current portfolio project is an **end-to-end multi-agent equity research system on Databricks**, combining Bronze/Silver/Gold data pipelines, Unity Catalog, Databricks Workflows, Vector Search, LangGraph, GPT OSS worker/synthesis models, MLflow tracing and GenAI evaluation, CI/CD, and a deployed Databricks App.
+
+I hold a **PhD in Political Science from the University of Geneva**, with a quantitative research background that adds strong domain and analytical depth in international relations, policy, finance, and applied research.
+
+- 🔭 Building production-oriented **Databricks data + AI systems** with tested deployment, governance, observability, and evaluation
+- 🤖 Working across **RAG, multi-agent AI, LLM evaluation, ML/DL, and MLOps**
+- 🏥 Delivered a malaria forecasting and data/ML workflow at **Terre des Hommes** using Azure Databricks, Spark, dbt, Terraform, and MLflow
+- 📈 Developing applied AI systems for **equity research, financial analytics, and algorithmic trading**
+- 💬 Languages: English, German, French, Arabic, Persian, Kurdish
 
 ---
 
@@ -65,6 +69,7 @@ I'm an **AI Engineer and Data Scientist** with 10+ years of experience building 
 
 | Project | Description | Stars |
 |---|---|---|
+| **[Multi-Agent Equity Research System on Databricks](https://github.com/maghdam/multi-agent-equity-research-system-on-databricks)** **— Primary Portfolio Project** | End-to-end Databricks data + AI engineering system: Bronze/Silver/Gold pipelines, Unity Catalog, Workflows, Vector Search/RAG, LangGraph agents, GPT OSS models, MLflow evaluation, CI/CD, and a deployed private Databricks App | ⭐ new |
 | [GenAI MultiAgent Trading System](https://github.com/maghdam/GenAI-MultiAgent-TradingSystem) | Local-first GenAI trading workstation with live cTrader data, paper execution, deterministic risk controls, and local LLM support via Ollama | ⭐ 8 |
 | [Python & SQL Interview Prep Dashboard](https://github.com/maghdam/python-sql-interview-prep-dashboard) | Python & SQL interview prep dashboard with browser-based runners, quizzes, flashcards, progress tracking, and optional local Ollama AI tutor support. [Live demo](https://maghdam.github.io/python-sql-interview-prep-dashboard/) | ⭐ new |
 | [chatgpt-trading-strategy-assistant](https://github.com/maghdam/chatgpt-trading-strategy-assistant) | Fully automated FastAPI + Docker pipeline over cTrader Open API — natural-language chart analysis, Notion journaling, and order placement | ⭐ 37 |
